@@ -72,7 +72,7 @@ Example:
 
 ![Configuration](assets/configuration.png)
 
-To get, `ACROLINX_GENERIC_TOKEN` refer Acrolinx [documentation](https://support.acrolinx.com/hc/en-us/articles/10306041280274) on Acrolinx single sign-on.
+To get, `ACROLINX_GENERIC_TOKEN` please submit a request to Acrolinx [support](https://support.acrolinx.com/).
 
 ## [Optional] Configure Acrolinx Access
 
