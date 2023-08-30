@@ -74,7 +74,7 @@ Example:
 
 ## [Optional] Configure Acrolinx Access
 
-Refer the "Configure Acrolinx Access" section in the [documentation](https://docs.acrolinx.com/aem/latest/en/acrolinx-for-adobe-experience-manager-admin-guide) before updating the value.
+Refer the "Configure Acrolinx Access" section in the [documentation](https://support.acrolinx.com/hc/en-us/articles/10211388159378-Admin-Guide) before updating the value.
 
 | NAME | VALUE | TYPE | DEFAULT | OPTIONAL |
 |------|-------|------|---------|----------|
