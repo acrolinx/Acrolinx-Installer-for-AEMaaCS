@@ -57,34 +57,34 @@ Follow this step-by-step guide to integrate Acrolinx to your existing code repos
   </embeddeds>
   ```
 
-## Configure Acrolinx URL and Generic Token
-
+## Acrolinx Configuration
 In cloud manager configuration add the following environment variables.
 
-| NAME | VALUE | TYPE | DEFAULT | OPTIONAL |
-|------|-------|------|---------|----------|
-|`ACROLINX_URL`| `https://<tenant>.acrolinx.cloud`| variable || No |
-|`ACROLINX_GENERIC_TOKEN`|`secret-token`|secret|| No |
-|`ACROLINX_FORWARD_COOKIES`|`true` or `false`| variable |`false`| Yes |
-|`ACROLINX_LOG_LEVEL`|`DEBUG`| variable |`INFO`| Yes |
+| NAME | VALUE | TYPE |
+|------|-------|------|
+|`ACROLINX_URL`| `https://<tenant>.acrolinx.cloud`| variable |
+|`ACROLINX_GENERIC_TOKEN`|`secret-token`|secret|
+
+### Optional Configuration 
+
+Refer the "Configure Acrolinx Access" section in the [documentation](https://support.acrolinx.com/hc/en-us/articles/10211388159378-Admin-Guide) before updating the value.
+
+| NAME | VALUE | TYPE | DEFAULT |
+|------|-------|------|---------|
+|`ACROLINX_ALLOWED_REGEX`|`your-site-name`| variable | `.*` |
+|`ACROLINX_FORWARD_COOKIES`|`true` or `false`| variable |`false`|
+|`ACROLINX_LOG_LEVEL`|`DEBUG`| variable |`INFO`|
+|`ACROLINX_SIDEBAR_SITES`|`true` or `false`| variable |`true`|
 
 Example:
 
 ![Configuration](assets/configuration.png)
 
-## [Optional] Configure Acrolinx Access
-
-Refer the "Configure Acrolinx Access" section in the [documentation](https://support.acrolinx.com/hc/en-us/articles/10211388159378-Admin-Guide) before updating the value.
-
-| NAME | VALUE | TYPE | DEFAULT | OPTIONAL |
-|------|-------|------|---------|----------|
-|`ACROLINX_ALLOWED_REGEX`|`your-site-name`| variable | `.*` | Yes |
-
 ## Updating Acrolinx
 
 Update `acrolinx.version` property in **/acrolinx/acrolinx.installer/pom.xml**
 
-Example: `<acrolinx.version>2.2.2</acrolinx.version>`
+Example: `<acrolinx.version>2.3.0</acrolinx.version>`
 
 ## Uninstalling Acrolinx
 
@@ -95,9 +95,7 @@ Example: `<acrolinx.version>2.2.2</acrolinx.version>`
 
 ## Requirements
 
-AEM Cloud SDK: `2023.3.11382.20230315T073850Z-230200` or above <https://central.sonatype.com/artifact/com.adobe.aem/aem-sdk-api/2023.3.11382.20230315T073850Z-230200>
-
-Guides for AEM as Cloud Service:  `2023.3.242` <https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en>
+Guides for AEM as Cloud Service: `2023.10.0.373` <https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en>
 
 ## License
 
