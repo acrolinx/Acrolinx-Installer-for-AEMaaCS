@@ -59,7 +59,7 @@ Follow this step-by-step guide to integrate Acrolinx to your existing code repos
 
 ## Configure Acrolinx URL and Generic Token
 
-In cloud manager configuration add the following environment variables.
+In cloud manager configuration, add the following environment variables.
 
 | NAME | VALUE | TYPE | DEFAULT | OPTIONAL |
 |------|-------|------|---------|----------|
@@ -71,6 +71,8 @@ In cloud manager configuration add the following environment variables.
 Example:
 
 ![Configuration](assets/configuration.png)
+
+To get, `ACROLINX_GENERIC_TOKEN` please submit a request to Acrolinx [support](https://support.acrolinx.com/).
 
 ## [Optional] Configure Acrolinx Access
 
