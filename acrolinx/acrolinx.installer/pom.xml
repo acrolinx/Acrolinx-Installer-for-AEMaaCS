@@ -17,7 +17,7 @@
 	<name>Acrolinx for AEMaaCS - Acrolinx Installer</name>
 
 	<properties>
-      <acrolinx.version>2.3.0</acrolinx.version>
+      <acrolinx.version>2.3.1</acrolinx.version>
       <target.path.for.install>${project.build.outputDirectory}/jcr_root/apps/acrolinx-installer/install</target.path.for.install>
 	</properties>
 
