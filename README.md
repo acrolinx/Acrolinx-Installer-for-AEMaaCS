@@ -1,7 +1,5 @@
 # Acrolinx-Installer-for-AEMaaCS
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.acrolinx.client/acrolinx-for-aem.all)](https://search.maven.org/artifact/com.acrolinx.client/acrolinx-for-aem.all)
-
 ## Steps for Adding Acrolinx to AEMaaCS
 
 Follow this step-by-step guide to integrate Acrolinx to your existing code repository.
