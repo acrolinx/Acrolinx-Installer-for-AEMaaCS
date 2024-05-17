@@ -73,6 +73,7 @@ Refer the "Configure Acrolinx Access" section in the [documentation](https://sup
 |`ACROLINX_FORWARD_COOKIES`|`true` or `false`| variable |`false`|
 |`ACROLINX_LOG_LEVEL`|`DEBUG`| variable |`INFO`|
 |`ACROLINX_SIDEBAR_SITES`|`true` or `false`| variable |`true`|
+|`HTTP_TIMEOUT`| `Integer` | variable | `1`| 
 
 Example:
 
