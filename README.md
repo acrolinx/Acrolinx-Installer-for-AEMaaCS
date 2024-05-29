@@ -83,7 +83,7 @@ Example:
 
 Update `acrolinx.version` property in **/acrolinx/acrolinx.installer/pom.xml**
 
-Example: `<acrolinx.version>2.3.0</acrolinx.version>`
+Example: `<acrolinx.version>2.3.2</acrolinx.version>`
 
 ## Uninstalling Acrolinx
 
@@ -91,10 +91,6 @@ Example: `<acrolinx.version>2.3.0</acrolinx.version>`
 - Remove entries from parent pom.xml in your project.
 - Remove cloud configuration for Acrolinx URL, generic token.
 - Rerun cloud manager pipeline.
-
-## Requirements
-
-Guides for AEM as Cloud Service: `2023.10.0.373` <https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en>
 
 ## License
 
