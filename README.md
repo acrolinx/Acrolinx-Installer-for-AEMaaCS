@@ -7,7 +7,8 @@ Follow this step-by-step guide to integrate Acrolinx to your existing code repos
 ## Adding the Acrolinx Module
 
 - Create a clone of your Cloud Manager's Git repository.
-- Copy the Acrolinx module from this repository to the root directory of the cloud manager code.
+- Download the source code from [GitHub releases](https://github.com/acrolinx/Acrolinx-Installer-for-AEMaaCS/releases). (Don't use the `main` branch as it could contain untested changes)
+- Unzip the downloaded source code and copy the Acrolinx module to the root directory of the cloud manager code.
 - Update  **/acrolinx/pom.xml**
 
   - Replace the parent pom section with your parent's pom details, as shown below:
