@@ -84,7 +84,6 @@ Example:
 
 Update `acrolinx.version` property in **/acrolinx/acrolinx.installer/pom.xml**
 
-Example: `<acrolinx.version>2.3.2</acrolinx.version>`
 
 ## Uninstalling Acrolinx
 
