@@ -84,6 +84,8 @@ Example:
 
 Update `acrolinx.version` property in **/acrolinx/acrolinx.installer/pom.xml**
 
+The version must be a release that is available on Maven Central. Released versions are listed at https://repo1.maven.org/maven2/com/acrolinx/client/acrolinx-for-aem.all/
+
 
 ## Uninstalling Acrolinx
 
